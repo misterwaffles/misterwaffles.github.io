@@ -48,6 +48,9 @@ h4.ourstory {
 b {
   color: #F1F1F1; }
 
+.active {
+  border: 3px solid white; }
+
 .tagline {
   position: relative;
   display: inline-block;

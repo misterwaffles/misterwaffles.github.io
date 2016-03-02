@@ -24,7 +24,7 @@ h3 {
 h4 {
 	position: absolute;
 	width: 100%;
-	color: $text-color; 
+	color: $h3-text-color; 
 	bottom: 0;
 	display: block;
 	text-align: center;
@@ -42,16 +42,13 @@ h4 {
 
 .our-story {
 	
-
-
-
 	a {
 		text-decoration: none;
-		color: $text-color;
+		color: $bg-color;
 	}
 	a:hover {
 		text-decoration: none;
-		color: $text-color;
+		color: $bg-color;
 	}
 }
 
@@ -60,11 +57,13 @@ h4 {
 	h2 {
 		text-align: left;
 		font-size: x-large;
+		padding: 10px;
 	}
 
 	p {
 		color: $text-color;
 		text-align: center;
+		padding: 15px;
 	}
 
 

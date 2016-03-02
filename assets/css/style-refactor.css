@@ -1,0 +1,213 @@
+@font-face {
+  font-family: helvetica-reg;
+  src: url("../fonts/HelveticaNeue.ttf"); }
+@font-face {
+  font-family: helvetica-bold;
+  src: url("../fonts/HelveticaNeueBd.ttf"); }
+@font-face {
+  font-family: helvetica-med;
+  src: url("../fonts/HelveticaNeueMd.ttf"); }
+@font-face {
+  font-family: sensory;
+  src: url("../fonts/SensoryOverload.ttf"); }
+body {
+  font-family: helvetica-med, sans-serif;
+  background: #1C1C1C;
+  color: #F1F1F1; }
+
+h2 {
+  color: #F50057;
+  font-family: sensory, helvetica-med, sans-serif;
+  text-transform: uppercase; }
+
+h3 {
+  text-transform: uppercase;
+  margin: 7px 0;
+  padding: 0;
+  font-size: 20px; }
+
+h4.ourstory {
+  position: absolute;
+  display: block;
+  bottom: 0;
+  text-align: center;
+  left: 0;
+  right: 0;
+  padding: 5px;
+  background-color: rgba(0, 0, 0, 0.6); }
+
+b {
+  color: #F1F1F1; }
+
+.tagline {
+  position: relative;
+  top: 150px;
+  margin-left: 20px;
+  font-size: 40px; }
+
+.section-header {
+  text-align: center;
+  margin-bottom: 30px; }
+  .section-header > * {
+    margin: 0;
+    padding: 0; }
+  .section-header p {
+    color: #9D9B9B; }
+
+.weekly-special {
+  height: 150px;
+  overflow: scroll;
+  margin-bottom: 30px;
+  border: 1px solid #9D9B9B; }
+  .weekly-special img {
+    float: left; }
+  .weekly-special .special-desc {
+    margin-left: 160px;
+    vertical-align: top; }
+    .weekly-special .special-desc p {
+      color: #9D9B9B; }
+
+nav {
+  font-family: helvetica-med;
+  letter-spacing: 1px;
+  text-shadow: 1px 1px black;
+  text-transform: uppercase;
+  display: flex;
+  justify-content: space-between; }
+
+header {
+  padding: 7px 0;
+  position: relative;
+  z-index: 100000; }
+
+nav {
+  margin-top: 3px; }
+  nav a {
+    color: #FFFFFF;
+    margin: 3px 0;
+    padding: 5px 10px;
+    border: 2px solid transparent;
+    -webkit-transition: all 0.15s;
+    transition: all 0.15s; }
+  nav a:hover {
+    text-decoration: none;
+    color: #FFFFFF;
+    border-color: #FFFFFF; }
+
+.hero {
+  height: 250px;
+  background: pink; }
+
+.hero-container {
+  background: url("http://img07.deviantart.net/e2dd/i/2013/110/1/3/free_mobile_app_background_by_diamonddew123-d62fu70.png");
+  background-size: cover;
+  width: 100%;
+  height: 1000px;
+  position: relative; }
+
+.hero-container h1 {
+  position: relative;
+  top: 50px; }
+.hero-container h3 {
+  margin-left: 40%;
+  position: absolute;
+  bottom: 0; }
+
+.logo img {
+  display: block;
+  margin: 0 auto;
+  height: 23px;
+  width: 149px; }
+
+.content > .row {
+  margin: 10px; }
+.content > .row-fluid {
+  margin: 0 !important; }
+.content > .first {
+  margin: 0 -20px; }
+.content.home {
+  margin-top: 90vh; }
+
+.hero.specials {
+  background: url("http://placehold.it/1400x1000") no-repeat center center;
+  background-size: cover; }
+
+.footer-gradient {
+  width: 100%;
+  height: 10px;
+  margin-bottom: 25px; }
+
+.gradient {
+  background: #F50057;
+  background: -webkit-linear-gradient(left, #F50057, #6200EA);
+  /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(right, #F50057, #6200EA);
+  /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(right, #F50057, #6200EA);
+  /* For Firefox 3.6 to 15 */
+  background: linear-gradient(to right, #F50057, #6200EA);
+  /* Standard syntax */ }
+
+footer {
+  padding-bottom: 25px;
+  text-align: center; }
+
+.key {
+  font-weight: bold;
+  text-transform: uppercase; }
+
+.contact-separator {
+  margin: 30px 10%;
+  height: 1px;
+  background: #9D9B9B; }
+
+.separator {
+  margin: 10px 10%;
+  height: 1px;
+  background: #9D9B9B; }
+
+.home-hero {
+  position: absolute;
+  width: 100%;
+  padding: 0;
+  top: 0;
+  background: url("../img/home-hero.jpg") no-repeat center center;
+  background-size: cover;
+  height: 100vh; }
+
+.contact {
+  background: url("http://placehold.it/1400x1000") no-repeat center center;
+  background-size: cover; }
+
+.contact-content {
+  text-align: center; }
+
+.address a {
+  color: white;
+  font-size: 120%;
+  border: 3px solid white;
+  padding: 5px 10px; }
+
+.menuhero {
+  background: url("http://placehold.it/1400x1000") no-repeat center center;
+  background-size: cover; }
+
+.instructions {
+  font-size: 90%; }
+
+.category {
+  background: url("http://placehold.it/700x500");
+  width: 100%;
+  height: 90px;
+  border-top: 1px solid white;
+  border-bottom: 1px solid white;
+  text-align: center; }
+
+.category-label {
+  line-height: 100px;
+  border: 3px solid white;
+  padding: 4px 25px;
+  font-family: helvetica-med;
+  font-size: 120%; }
+
+/*# sourceMappingURL=style-refactor.css.map */

@@ -43,6 +43,7 @@ nav {
   font-weight: bold;
   letter-spacing: 5px;
   text-transform: uppercase;
+  text-shadow: none;
   box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.6); }
   nav .navbar-inner {
     padding: 7px; }
@@ -199,6 +200,9 @@ nav {
   background: #6A5F5F;
   font-size: 0.8rem;
   cursor: default; }
+  #accordion-menu ul ul a .item-name {
+    color: #e6e6e6;
+    text-shadow: none !important; }
   #accordion-menu ul ul a i {
     padding: 0 5px;
     color: #ff5c96;
@@ -241,6 +245,20 @@ nav {
   letter-spacing: 2px;
   text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.6);
   border: 3px solid white; }
+
+.item {
+  position: relative;
+  text-align: left; }
+  .item .item-name {
+    font-weight: bold;
+    text-transform: uppercase; }
+  .item .item-desc {
+    font-weight: light; }
+  .item .item-price {
+    position: absolute;
+    top: 50%;
+    right: 0;
+    margin-top: -10px; }
 
 footer {
   margin-top: 100px;
@@ -361,20 +379,6 @@ b {
 .category-content {
   display: none;
   height: 0; }
-
-.item {
-  position: relative;
-  text-align: left; }
-  .item .item-name {
-    font-weight: bold;
-    text-transform: uppercase; }
-  .item .item-desc {
-    font-weight: light; }
-  .item .item-price {
-    position: absolute;
-    top: 50%;
-    right: 0;
-    margin-top: -10px; }
 
 .section-header {
   margin-bottom: 30px; }

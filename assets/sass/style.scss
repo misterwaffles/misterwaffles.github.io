@@ -40,6 +40,7 @@ nav {
 	font-weight: bold;
 	letter-spacing: 5px;
 	text-transform: uppercase;
+	text-shadow: none;
 	box-shadow: 1px 1px 10px rgba(0,0,0,0.6);
 
 	.navbar-inner {
@@ -226,6 +227,11 @@ nav {
   font-size: 0.8rem;
   cursor: default;
 
+	.item-name {
+		color: darken($nav-text-color, 10%);
+		text-shadow: none !important;
+	}
+
 	i {
 		padding: 0 5px;
 		color: lighten($gradient-pink, 20%);
@@ -281,6 +287,28 @@ nav {
 	letter-spacing: 2px;
 	text-shadow: 1px 1px 3px rgba(0,0,0,0.6);
 	border: 3px solid white;
+}
+
+.item {
+	position: relative;
+	text-align: left;
+
+	.item-name {
+		font-weight: bold;
+		text-transform: uppercase;
+	}
+
+	.item-desc {
+		font-weight: light;
+	}
+
+	.item-price {
+		position: absolute;
+		top: 50%;
+		right: 0;
+		margin-top: -10px;
+
+	}
 }
 
 footer {
@@ -478,25 +506,7 @@ b {
 }
 
 
-.item {
-	position: relative;
-	text-align: left;
-	.item-name {
-		font-weight: bold;
-		text-transform: uppercase;
-	}
-	.item-desc {
-		font-weight: light;
-	}
 
-	.item-price {
-		position: absolute;
-		top: 50%;
-		right: 0;
-		margin-top: -10px;
-
-	}
-}
 
 
 

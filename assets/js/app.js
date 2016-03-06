@@ -1,4 +1,17 @@
 ( function( $ ) {
+lastScrollTop = 0;
+
+$(window).scroll(function() {
+  var st = $(document).scrollTop();
+
+  if (st > lastScrollTop) {
+    $('nav').addClass('shrink');
+  } else {
+    $('nav').removeClass('shrink');
+  }
+
+  lastScrollTop = st;
+});
 $( document ).ready(function() {
 $(document).ready(function(){
 
@@ -16,8 +29,8 @@ $('#cssmenu > ul > li > a').click(function() {
   if($(this).closest('li').find('ul').children().length == 0) {
     return true;
   } else {
-    return false;	
-  }		
+    return false;
+  }
 });
 
 });

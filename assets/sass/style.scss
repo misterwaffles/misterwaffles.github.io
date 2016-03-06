@@ -18,6 +18,18 @@ body {
 	font-size: 1rem;
 }
 
+h3 {
+	margin: 7px 0;
+	padding: 0;
+	font-size: 1.7rem;
+	width: 100%;
+	padding: 0 100px;
+	color: black;
+	font-style: italic;
+	text-shadow: none;
+	font-weight: bold;
+	text-align: center;
+}
 
 h5 {
 	margin-top: 10px;
@@ -333,6 +345,10 @@ footer {
 		margin-top: 25px;
 		border: 3px solid white;
 		text-shadow: none;
+
+		a {
+			color: inherit; //use default
+		}
 		.res {
 			font-size: 0.8rem;
 
@@ -457,22 +473,9 @@ footer {
 
 
 
-h2 {
-	color: $h2-text-color;
-	font-family: helvetica-bold, sans-serif;
-	text-transform: uppercase;
-	font-weight: bold;
-	letter-spacing: 5px;
-	font-size: 0.9rem !important;
-	text-align: center;
-}
 
-h3 {
-	text-transform: uppercase;
-	margin: 7px 0;
-	padding: 0;
-	font-size: 20px;
-}
+
+
 
 .picture-about {
 	height: 400px;
@@ -493,17 +496,42 @@ h3 {
 .about {
 	//max-width: 800px;
 	margin: 30px auto;
-
-	h2 {
-		padding: 10px;
-	}
+	padding: 30px 30%;
+	background: darken(white, 5%);
 
 	p {
-		color: $text-color;
+		color: lighten(black, 30%);
 		padding: 15px;
+		text-shadow: none;
 	}
+}
 
+.questions-section {
+	padding: 50px;
+	background: url('../img/interior.jpg') center center/cover no-repeat;
 
+	.white-bg {
+		width: 40%;
+		padding: 10px 30px;
+		text-align: justify;
+		margin: 0 auto;
+		background-color: rgba(255,255,255,0.8);
+		color: black;
+		text-shadow: none;
+		letter-spacing: 1px;
+	}
+}
+
+h2 {
+	margin: 7px 0;
+	padding: 10px 0;
+	font-size: 1.2rem;
+	width: 100%;
+	color: black;
+	font-style: italic;
+	text-shadow: none;
+	font-weight: 600;
+	text-align: center;
 }
 
 

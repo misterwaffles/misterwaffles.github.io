@@ -261,6 +261,7 @@ nav {
     margin-top: -10px; }
 
 footer {
+  position: relative;
   margin-top: 100px;
   padding-bottom: 50px;
   font-size: 0.8rem;
@@ -286,6 +287,19 @@ footer {
         footer .footer-content .res a:hover {
           color: #b3b3b3;
           text-decoration: none; }
+
+.copyright {
+  position: absolute;
+  display: inline-block;
+  bottom: 3px;
+  left: 0;
+  right: 0;
+  font-size: 0.5rem;
+  color: #9D9B9B;
+  text-shadow: none;
+  letter-spacing: 1px; }
+  .copyright a {
+    color: #c3c2c2; }
 
 @media (max-width: 768px) {
   nav li a {

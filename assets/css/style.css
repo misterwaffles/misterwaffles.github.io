@@ -1,4 +1,4 @@
-@import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro:700,400,300,200);
+@import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro:700,600,400,300,200);
 @font-face {
   font-family: helvetica-reg;
   src: url("../fonts/HelveticaNeue.ttf"); }
@@ -290,7 +290,7 @@ footer {
 @media (max-width: 768px) {
   nav li a {
     font-size: 0.8rem;
-    font-weight: normal;
+    font-weight: 600;
     letter-spacing: 2px;
     margin: 1px;
     padding: 5px !important; }

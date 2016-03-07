@@ -23,12 +23,11 @@ h3 {
 	padding: 0;
 	font-size: 1.7rem;
 	width: 100%;
-	padding: 0 100px;
-	color: black;
-	font-style: italic;
+	color: $nav-text-color;
 	text-shadow: none;
-	font-weight: bold;
+	font-weight: 600;
 	text-align: center;
+	letter-spacing: 2px;
 }
 
 h5 {
@@ -381,6 +380,41 @@ footer {
 	}
 }
 
+.about {
+	//max-width: 800px;
+	margin: 30px auto;
+	background: $bg-color;
+	padding: 30px 0 50px;
+
+	.about-content {
+		width: 500px;
+		margin: 0 auto;
+	}
+
+	p {
+		color: lighten(black, 60%);
+		padding: 15px;
+		text-shadow: none;
+	}
+}
+
+
+.questions-section {
+	padding: 50px;
+	background: url('../img/interior.jpg') center center/cover no-repeat;
+
+	.white-bg {
+		width: 500px;
+		padding: 10px 30px;
+		text-align: justify;
+		margin: 0 auto;
+		background-color: rgba(255,255,255,0.8);
+		color: black;
+		text-shadow: none;
+		letter-spacing: 1px;
+	}
+}
+
 @media (max-width: 768px) {
 	nav li a {
 		font-size:0.8rem;
@@ -445,6 +479,22 @@ footer {
 		font-size: 1rem;
 	}
 
+	.about .about-content {
+		width: 100%;
+		padding: 0 20px;
+	}
+
+	.about img {
+		width: 300px;
+		height: auto;
+	}
+
+	.questions-section .white-bg {
+		width: 100%;
+		text-align: center;
+		letter-spacing: normal;
+	}
+
 }
 
 
@@ -493,34 +543,8 @@ footer {
 	margin: 0 auto;
 }
 
-.about {
-	//max-width: 800px;
-	margin: 30px auto;
-	padding: 30px 30%;
-	background: darken(white, 5%);
 
-	p {
-		color: lighten(black, 30%);
-		padding: 15px;
-		text-shadow: none;
-	}
-}
 
-.questions-section {
-	padding: 50px;
-	background: url('../img/interior.jpg') center center/cover no-repeat;
-
-	.white-bg {
-		width: 40%;
-		padding: 10px 30px;
-		text-align: justify;
-		margin: 0 auto;
-		background-color: rgba(255,255,255,0.8);
-		color: black;
-		text-shadow: none;
-		letter-spacing: 1px;
-	}
-}
 
 h2 {
 	margin: 7px 0;

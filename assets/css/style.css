@@ -29,12 +29,11 @@ h3 {
   padding: 0;
   font-size: 1.7rem;
   width: 100%;
-  padding: 0 100px;
-  color: black;
-  font-style: italic;
+  color: #FFFFFF;
   text-shadow: none;
-  font-weight: bold;
-  text-align: center; }
+  font-weight: 600;
+  text-align: center;
+  letter-spacing: 2px; }
 
 h5 {
   margin-top: 10px;
@@ -315,6 +314,31 @@ footer {
   .copyright a {
     color: #c3c2c2; }
 
+.about {
+  margin: 30px auto;
+  background: #1C1C1C;
+  padding: 30px 0 50px; }
+  .about .about-content {
+    width: 500px;
+    margin: 0 auto; }
+  .about p {
+    color: #999999;
+    padding: 15px;
+    text-shadow: none; }
+
+.questions-section {
+  padding: 50px;
+  background: url("../img/interior.jpg") center center/cover no-repeat; }
+  .questions-section .white-bg {
+    width: 500px;
+    padding: 10px 30px;
+    text-align: justify;
+    margin: 0 auto;
+    background-color: rgba(255, 255, 255, 0.8);
+    color: black;
+    text-shadow: none;
+    letter-spacing: 1px; }
+
 @media (max-width: 768px) {
   nav li a {
     font-size: 0.8rem;
@@ -363,7 +387,20 @@ footer {
 
   .category-label {
     width: 150;
-    font-size: 1rem; } }
+    font-size: 1rem; }
+
+  .about .about-content {
+    width: 100%;
+    padding: 0 20px; }
+
+  .about img {
+    width: 300px;
+    height: auto; }
+
+  .questions-section .white-bg {
+    width: 100%;
+    text-align: center;
+    letter-spacing: normal; } }
 .picture-about {
   height: 400px;
   width: 400px;
@@ -377,28 +414,6 @@ footer {
   width: 350px;
   height: auto;
   margin: 0 auto; }
-
-.about {
-  margin: 30px auto;
-  padding: 30px 30%;
-  background: #f2f2f2; }
-  .about p {
-    color: #4d4d4d;
-    padding: 15px;
-    text-shadow: none; }
-
-.questions-section {
-  padding: 50px;
-  background: url("../img/interior.jpg") center center/cover no-repeat; }
-  .questions-section .white-bg {
-    width: 40%;
-    padding: 10px 30px;
-    text-align: justify;
-    margin: 0 auto;
-    background-color: rgba(255, 255, 255, 0.8);
-    color: black;
-    text-shadow: none;
-    letter-spacing: 1px; }
 
 h2 {
   margin: 7px 0;

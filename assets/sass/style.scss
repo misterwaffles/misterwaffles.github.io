@@ -401,17 +401,18 @@ footer {
 
 .questions-section {
 	padding: 50px;
-	background: url('../img/interior.jpg') center center/cover no-repeat;
+	background: url('../img/interior.png') center center/cover no-repeat;
 
 	.white-bg {
 		width: 500px;
 		padding: 10px 30px;
-		text-align: justify;
+		text-align: left;
 		margin: 0 auto;
 		background-color: rgba(255,255,255,0.8);
 		color: black;
 		text-shadow: none;
 		letter-spacing: 1px;
+		box-shadow: 1px 1px 10px rgba(0,0,0,0.75);
 	}
 }
 
@@ -712,30 +713,4 @@ b {
 
 .instructions {
 	font-size: 90%;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-//------------- ACCORDION MENU
-/* Base Styles */
-
-@media (min-width: 768px) {
-
-
-
-
-
-
-
-
-
 }
